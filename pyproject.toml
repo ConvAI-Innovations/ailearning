@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "convai-innovations"
-version = "1.0.1"
+version = "1.0.4"
 description = "Interactive LLM Training Academy - Learn to build language models from scratch"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -68,11 +68,11 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/convai-innovations/convai-innovations"
+Homepage = "https://github.com/ConvAI-Innovations/ailearning"
 Documentation = "https://convai-innovations.readthedocs.io/"
-Repository = "https://github.com/convai-innovations/convai-innovations.git"
-"Bug Tracker" = "https://github.com/convai-innovations/convai-innovations/issues"
-Changelog = "https://github.com/convai-innovations/convai-innovations/blob/main/CHANGELOG.md"
+Repository = "https://github.com/ConvAI-Innovations/ailearning.git"
+"Bug Tracker" = "https://github.com/ConvAI-Innovations/ailearning/issues"
+Changelog = "https://github.com/ConvAI-Innovations/ailearning/blob/main/CHANGELOG.md"
 
 [project.scripts]
 convai = "convai_innovations.cli:main"

@@ -51,6 +51,6 @@ __package_info__ = {
     "author": __author__,
     "email": __email__,
     "description": "Interactive LLM Training Academy - Learn to build language models from scratch",
-    "url": "https://github.com/convai-innovations/convai-innovations",
+    "url": "https://github.com/ConvAI-Innovations/ailearning",
     "license": __license__,
 }

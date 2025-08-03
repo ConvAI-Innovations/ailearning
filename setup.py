@@ -50,11 +50,11 @@ setup(
     description="Interactive LLM Training Academy - Learn to build language models from scratch",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/convai-innovations/convai-innovations",
+    url="https://github.com/ConvAI-Innovations/ailearning",
     project_urls={
-        "Bug Tracker": "https://github.com/convai-innovations/convai-innovations/issues",
+        "Bug Tracker": "https://github.com/ConvAI-Innovations/ailearning/issues",
         "Documentation": "https://convai-innovations.readthedocs.io/",
-        "Source Code": "https://github.com/convai-innovations/convai-innovations",
+        "Source Code": "https://github.com/ConvAI-Innovations/ailearning",
     },
     packages=find_packages(),
     classifiers=[

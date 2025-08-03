@@ -76,7 +76,7 @@ Examples:
   convai --version         # Show version information
   convai --check-deps      # Check dependencies
 
-For more information, visit: https://github.com/convai-innovations/convai-innovations
+For more information, visit: https://github.com/ConvAI-Innovations/ailearning
         """
     )
     

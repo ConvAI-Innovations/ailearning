@@ -1,11 +1,11 @@
-# 🧠 ConvAI Innovations - Interactive LLM Training Academy
+# 🧠 ConvAI Innovations Dahboard - Interactive LLM Training Academy
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 **Learn to build Large Language Models from scratch through hands-on coding sessions with AI mentor Sandra!**
 
-ConvAI Innovations is a comprehensive educational platform that takes you from Python fundamentals to training your own LLMs. Experience interactive learning with real-time AI feedback, text-to-speech guidance, and a structured curriculum covering everything from neural networks to transformer architecture.
+ConvAI Innovations dashboard is a comprehensive educational platform that takes you from Python fundamentals to training your own LLMs. Experience interactive learning with real-time AI feedback, text-to-speech guidance, and a structured curriculum covering everything from neural networks to transformer architecture.
 
 ## ✨ Features
 
@@ -154,7 +154,7 @@ export CONVAI_DEBUG="1"
 
 ```bash
 # Clone the repository
-git clone https://github.com/convai-innovations/convai-innovations.git
+git clone https://github.com/ConvAI-Innovations/ailearning.git
 cd convai-innovations
 
 # Install in development mode
@@ -183,13 +183,13 @@ python scripts/deploy.py --test
 - **Full Documentation**: [convai-innovations.readthedocs.io](https://convai-innovations.readthedocs.io/)
 - **API Reference**: [API Documentation](https://convai-innovations.readthedocs.io/en/latest/api/)
 - **Tutorials**: [Learning Guides](https://convai-innovations.readthedocs.io/en/latest/tutorials/)
-- **Examples**: [Code Examples](https://github.com/convai-innovations/convai-innovations/tree/main/examples)
+- **Examples**: [Code Examples](https://github.com/ConvAI-Innovations/ailearning/tree/main/examples)
 
 ## 🆘 Support
 
 ### Getting Help
-- **GitHub Issues**: [Report bugs or request features](https://github.com/convai-innovations/convai-innovations/issues)
-- **Discussions**: [Community discussions](https://github.com/convai-innovations/convai-innovations/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/ConvAI-Innovations/ailearning/issues)
+- **Discussions**: [Community discussions](https://github.com/ConvAI-Innovations/ailearning/discussions)
 - **Email**: contact@convai-innovations.com
 
 ### Common Issues
@@ -219,7 +219,7 @@ This is a copyleft license that requires derivative works to also be licensed un
 
 ## 🌟 Star History
 
-If you find ConvAI Innovations helpful, please consider giving it a star! ⭐
+If you find ConvAI Innovations dashboard helpful, please consider giving it a star! ⭐
 
 ---
 
