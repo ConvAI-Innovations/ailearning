@@ -1,0 +1,128 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convai-innovations"
+version = "1.0.1"
+description = "Interactive LLM Training Academy - Learn to build language models from scratch"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "ConvAI Innovations", email = "support@convai-innovations.com"}
+]
+maintainers = [
+    {name = "ConvAI Innovations", email = "support@convai-innovations.com"}
+]
+keywords = [
+    "machine-learning", 
+    "deep-learning", 
+    "llm", 
+    "education", 
+    "pytorch", 
+    "transformer", 
+    "ai-training",
+    "interactive-learning",
+    "neural-networks"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "llama-cpp-python>=0.2.0",
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+audio = [
+    "kokoro>=0.3.0",
+    "sounddevice>=0.4.6",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=22.0.0",
+    "flake8>=5.0.0",
+    "mypy>=1.0.0",
+    "build>=0.10.0",
+    "twine>=4.0.0",
+]
+all = [
+    "convai-innovations[audio,dev]"
+]
+
+[project.urls]
+Homepage = "https://github.com/convai-innovations/convai-innovations"
+Documentation = "https://convai-innovations.readthedocs.io/"
+Repository = "https://github.com/convai-innovations/convai-innovations.git"
+"Bug Tracker" = "https://github.com/convai-innovations/convai-innovations/issues"
+Changelog = "https://github.com/convai-innovations/convai-innovations/blob/main/CHANGELOG.md"
+
+[project.scripts]
+convai = "convai_innovations.cli:main"
+
+[tool.setuptools]
+packages = ["convai_innovations"]
+
+[tool.setuptools.package-data]
+convai_innovations = ["assets/*", "models/*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = ["tests"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+]

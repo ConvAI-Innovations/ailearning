@@ -1,0 +1,42 @@
+# Development dependencies for ConvAI Innovations
+
+# Core dependencies (also in pyproject.toml)
+torch>=1.13.0
+numpy>=1.21.0
+llama-cpp-python>=0.2.0
+requests>=2.25.0
+
+# Audio dependencies
+kokoro-tts>=0.1.0
+sounddevice>=0.4.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Code quality
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
+isort>=5.10.0
+bandit>=1.7.0
+
+# Build and deployment
+build>=0.10.0
+twine>=4.0.0
+wheel>=0.38.0
+setuptools>=61.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+myst-parser>=0.18.0
+
+# Development tools
+pre-commit>=2.20.0
+tox>=4.0.0
+coverage>=7.0.0
+
+# Optional: TOML parsing for older Python versions
+tomli>=2.0.0; python_version < "3.11"
