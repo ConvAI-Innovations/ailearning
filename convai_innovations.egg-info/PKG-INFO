@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: convai-innovations
-Version: 1.0.4
+Version: 1.0.5
 Summary: Interactive LLM Training Academy - Learn to build language models from scratch
 Home-page: https://github.com/ConvAI-Innovations/ailearning
 Author: ConvAI Innovations
@@ -296,7 +296,7 @@ Dynamic: home-page
 Dynamic: license-file
 Dynamic: requires-python
 
-# 🧠 ConvAI Innovations Dahboard - Interactive LLM Training Academy
+# 🧠 ConvAI Innovations Dashboard - Interactive LLM Training Academy
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
