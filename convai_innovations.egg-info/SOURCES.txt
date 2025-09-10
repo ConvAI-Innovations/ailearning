@@ -4,8 +4,14 @@ README.md
 pyproject.toml
 setup.py
 convai_innovations/__init__.py
+convai_innovations/ai_systems.py
 convai_innovations/cli.py
 convai_innovations/convai.py
+convai_innovations/models.py
+convai_innovations/session_manager.py
+convai_innovations/ui_components.py
+convai_innovations/utils.py
+convai_innovations/visualizations.py
 convai_innovations.egg-info/PKG-INFO
 convai_innovations.egg-info/SOURCES.txt
 convai_innovations.egg-info/dependency_links.txt

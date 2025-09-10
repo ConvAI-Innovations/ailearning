@@ -34,9 +34,10 @@ def check_dependencies():
         missing_deps.append("tkinter (usually comes with Python)")
     
     try:
-        import llama_cpp
+        import transformers
+        import torch
     except ImportError:
-        missing_deps.append("llama-cpp-python")
+        missing_deps.append("transformers and torch")
     
     # Optional dependencies
     optional_missing = []
@@ -72,7 +73,7 @@ def create_parser():
 Examples:
   convai                    # Launch the application
   convai --no-banner       # Launch without banner
-  convai --model-path /path/to/model.gguf  # Use custom model
+  convai --model-path /path/to/model  # Use custom model
   convai --version         # Show version information
   convai --check-deps      # Check dependencies
 
@@ -96,7 +97,7 @@ For more information, visit: https://github.com/ConvAI-Innovations/ailearning
         "--model-path",
         type=str,
         default=None,
-        help="Path to a custom LLM model file (.gguf)"
+        help="Path to a custom LLM model (transformers format)"
     )
     
     parser.add_argument(
